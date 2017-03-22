@@ -25,6 +25,8 @@ spec:
       value: "true"
     - name: GIT_SYNC_WAIT
       value: "99999"
+    - name: GIT_SYNC_ATOMIC
+      value: "false"
   - name: hugo
     image: gcr.io/google_containers/hugo
     imagePullPolicy: Always
